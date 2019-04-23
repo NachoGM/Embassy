@@ -32,7 +32,6 @@ You can also save your searchs (both filtered and selected)
 
 ## Search whitch one is closer to you!
 ![icon](https://github.com/NachoGM/Embassy/blob/master/customSearch.png)
-final
 
 
 ## Sticky Header with TableView

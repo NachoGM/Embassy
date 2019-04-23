@@ -7,7 +7,7 @@ Swift 5, MVVM, CocoaPods, CoreData
 SWRevealViewController – [SideBar Menu](https://github.com/John-Lluch/SWRevealViewController)
 Alamofire - [Elegant HTTP Networking in Swift](https://github.com/Alamofire/Alamofire)
 SwiftyJSON - [The better way to deal with JSON data in Swift](https://github.com/SwiftyJSON/SwiftyJSON)
-TextFieldEffects - [Eféctos animados en TextFields](https://goo.gl/6NyUgk)
+TextFieldEffects - [TextField Animations](https://goo.gl/6NyUgk)
 
 ## UI + Native Animations
 TableView animations, Sticky Header TableView Animation

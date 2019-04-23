@@ -34,12 +34,6 @@ You can also save your searchs (both filtered and selected)
 ![icon](https://github.com/NachoGM/Embassy/blob/master/customSearch.png)
 
 
-## Sticky Header with TableView
-Using autolayout constraints
-
-![icon](https://github.com/NachoGM/Embassy/blob/master/stickyHeader.png)
-
-
 ### Open this project in Terminal and write
 ```
 pod install

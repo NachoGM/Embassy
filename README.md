@@ -35,7 +35,8 @@ You can also save your searchs (both filtered and selected)
 
 
 ## Sticky Header with TableView
-Using autolayout constraints 
+Using autolayout constraints
+
 ![icon](https://github.com/NachoGM/Embassy/blob/master/stickyHeader.png)
 
 

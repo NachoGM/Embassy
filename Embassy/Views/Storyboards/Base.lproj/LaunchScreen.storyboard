@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnS-Th-yBD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8vt-gL-YkU">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n2Q-Xs-gxJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="896"/>
+                                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DaK-FH-7WN">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="896"/>
+                                                <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bandera" highlightedImage="bandera" translatesAutoresizingMaskIntoConstraints="NO" id="4bv-VZ-Lsk">
+                                        <rect key="frame" x="45.666666666666657" y="197" width="323" height="165"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="323" id="BBW-m8-ksO"/>
+                                            <constraint firstAttribute="height" constant="165" id="hSC-Xr-77L"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JM6-dN-p06">
+                                        <rect key="frame" x="68" y="392" width="277" height="79"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Embajadas en Madrid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ij-6S-Tmx">
+                                                <rect key="frame" x="0.0" y="0.0" width="277" height="49"/>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="por Nacho González Miró" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mR-LP-gGt">
+                                                <rect key="frame" x="0.0" y="49" width="277" height="30"/>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4bv-VZ-Lsk" firstAttribute="top" secondItem="tnS-Th-yBD" secondAttribute="top" constant="197" id="FPs-vh-7DW"/>
+                                    <constraint firstItem="JM6-dN-p06" firstAttribute="top" secondItem="4bv-VZ-Lsk" secondAttribute="bottom" constant="30" id="Jhx-Hr-kw1"/>
+                                    <constraint firstItem="8vt-gL-YkU" firstAttribute="top" secondItem="tnS-Th-yBD" secondAttribute="top" id="Kgb-tf-XJk"/>
+                                    <constraint firstItem="JM6-dN-p06" firstAttribute="leading" secondItem="tnS-Th-yBD" secondAttribute="leading" constant="68" id="Oph-T0-HZc"/>
+                                    <constraint firstItem="4bv-VZ-Lsk" firstAttribute="centerX" secondItem="tnS-Th-yBD" secondAttribute="centerX" id="Xqw-Ht-kQ9"/>
+                                    <constraint firstAttribute="bottom" secondItem="8vt-gL-YkU" secondAttribute="bottom" id="psL-2r-uhI"/>
+                                    <constraint firstAttribute="trailing" secondItem="JM6-dN-p06" secondAttribute="trailing" constant="69" id="tNR-kJ-esR"/>
+                                    <constraint firstItem="8vt-gL-YkU" firstAttribute="leading" secondItem="tnS-Th-yBD" secondAttribute="leading" id="uFK-si-tV5"/>
+                                    <constraint firstAttribute="trailing" secondItem="8vt-gL-YkU" secondAttribute="trailing" id="wCy-Zj-WMZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tnS-Th-yBD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4Cu-ty-Ndu"/>
+                            <constraint firstAttribute="bottom" secondItem="tnS-Th-yBD" secondAttribute="bottom" id="BXH-4T-ruv"/>
+                            <constraint firstItem="tnS-Th-yBD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YTu-un-Ca7"/>
+                            <constraint firstItem="tnS-Th-yBD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="x24-Ew-qdE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bandera" width="685.33331298828125" height="437.33334350585938"/>
+    </resources>
+</document>
